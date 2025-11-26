@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Profile</title>
+<link href="../css/global.css" rel="stylesheet" type="text/css">
+<link href="../css/webstyle.css" rel="stylesheet" type="text/css">
+<link href="../css/enwebstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/backtop.js"></script>
+<script type="text/javascript" src="../js/web.js"></script>
+<!--<script type="text/javascript" src="../js/enweb.js"></script>-->
+
+
+<script type="text/javascript" src="../js/openSubmenu.js"></script>
+</head>
+<body class="zonebody">
+<div class="zonetop" id="top">
+  <div class="zone_logo"><img src="../images/zone_logo.png" width="130" height="130"  alt=""/></div>
+  <div class="zone_name">My Page</div>
+  <div class="logout"><a href="index.html">[Home page]</a><a href="login.html">[Return]</a></div>
+</div>
+<div class="login_info">Login times:<span class="fontred"> 17 </span>, last login:<span>2017-07-28&nbsp;&nbsp;14:21:05</span></div>
+<div class="zone_main">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td valign="top" width="262"><div class="zone_left">
+          <div class="zone_username">Johny&nbsp;&nbsp;Welcome!</div>
+          <div class="user_photo"><a href="zone_index.html"><img src="../images/zone_user_photo.jpg" width="136" height="136"  alt=""/></a></div>
+          <ul class="zone_menu">
+            <li id="submenu1" class="">
+              <div class="menuitem" onClick="openmenu('submenu1')"><i class="menuarrow"></i><b>My Account</b></div>
+              <ul class="submenu">
+                <li><a href="zone_userInfo.html"><i class="menusquare"></i>My Information</a></li>
+                <li><a href="zone_changePassword.html"><i class="menusquare"></i>Change Password</a></li>
+              </ul>
+            </li>
+            <li id="submenu2"  class="opensubmenu">
+              <div class="menuitem" onClick="openmenu('submenu2')"><i class="menuarrow"></i><b>My Projects</b></div>
+              <ul class="submenu">
+                <li><a class="itemon" href="zone_userProfile.html"><i class="menusquare"></i>My Profile</a></li>
+                <li><a href="zone_projectProfile.html"><i class="menusquare"></i>Investment Documents</a></li>
+                <li><a href="zone_investProject.html"><i class="menusquare"></i>My invested Projects</a></li>
+                <li><a href="zone_projectDivident.html"><i class="menusquare"></i>Dividend Calculation<br>
+                  &nbsp;&nbsp;Dividend Payment Information</a></li>
+              </ul>
+            </li>
+            <li id="submenu3" class="">
+              <div class="menuitem" onClick="openmenu('submenu3')"><i class="menuarrow"></i><b>My Message</b></div>
+              <ul class="submenu">
+                <li><a href="zone_userMsg.html"><i class="menusquare"></i>My Message</a></li>
+              </ul>
+            </li>
+            <li id="submenu4">
+              <div class="menuitem" onClick="openmenu('submenu4')"><i class="menuarrow"></i><b>Online Services</b></div>
+              <ul class="submenu">
+                <li><a href="zone_applyForService.html"><i class="menusquare"></i>Online Services</a></li>
+              </ul>
+            </li>
+            <li id="submenu5">
+              <div class="menuitem" onClick="openmenu('submenu5')"><i class="menuarrow"></i><b>资料文件专区</b></div>
+              <ul class="submenu">
+                <li><a href="zone_InfoFile.html"><i class="menusquare"></i>资料文件专区</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div></td>
+      <td valign="top"><div class="zone_right">
+          <div class="pageguide">My Projects > My Profile</div>
+          <div>
+            <div class="subitem">
+              <div class="subitemtitle">Basic information</div>
+              <div class="subitemcont">
+                <div class="row">
+                  <label class="label_l length_2 txtright">Name:</label>
+                  <input class="input_l length_4" type="text" placeholder="Name" />
+                  <label class="label_l length_2 txtright">Nationality:</label>
+                  <select class="input_l length_3">
+                    <option>China</option>
+                    <option>United States</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <label class="label_l length_2 txtright">Occupation:</label>
+                  <input class="input_l length_4" type="text"  placeholder="Occupation" />
+                  <label class="label_l length_2 txtright">Country of residence:</label>
+                  <select class="input_l length_3">
+                    <option>China</option>
+                    <option>United States</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <label class="label_l length_2 txtright">Phone:</label>
+                  <input class="input_l length_4" type="tel"  placeholder="Phone" />
+                  <label class="label_l length_2 txtright">Tax ID:</label>
+                  <input class="input_l length_3" type="text"  placeholder="Phone" />
+                </div>
+                <div class="row">
+                  <label class="label_l length_2 txtright">Email:</label>
+                  <input class="input_l length_9" type="email"  placeholder="Email" />
+                </div>
+                <div class="row">
+                  <label class="label_l length_2 txtright">Address:</label>
+                  <input class="input_l length_9" type="text"  placeholder="Address" />
+                </div>
+                <!--<div class="row txtcenter">
+                  <button class="btn_l btn_purple mr10">Save</button>
+                  <button class="btn_l btn_gray">Cancel</button>
+                </div>-->
+              </div>
+            </div>
+            <div class="subitem">
+              <div class="subitemtitle">Identity information</div>
+              <div class="subitemcont">
+                <div class="row">
+                  <div class="pullleft">
+                    <div class="imgbox"><img src="../images/xmxq_img15.jpg" width="150" height="150" title="Click to view"  alt=""/></div>
+                    <div class="fontsize18 txtcenter">ID photo</div>
+                  </div>
+                  <div>
+                    <div class="uploadtip">Note: once uploaded, the ID photo will automatically be used as your member icon.</div>
+                    <div>
+                      <div class="filebox mr10">
+                        <input class="input_l length_6 mr10" type="text" name="userdefinedFile1" id="userdefinedFile1" value="No documents selected" />
+                        <button class="btn_upload_l btn_gray_2">View</button>
+                        <input class="fileselect_l" type="file" name="file2" id="file2" />
+                      </div>
+                      <script>
+						document.getElementById("file1").onchange = function() {
+    					document.getElementById("userdefinedFile1").value = document.getElementById("file1").value;
+						}
+                      </script>
+                      <input class="btn_upload_l btn_gray_2" type="submit" value="Upload" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row clear">
+                  <div class="pullleft">
+                    <div class="imgbox"><img src="../images/xmxq_img15.jpg" width="150" height="150" title="Click to view"  alt=""/></div>
+                    <div class="fontsize18 txtcenter" style="width:150px;">Passport/<br>Driver’s License<br>/Green Card</div>
+                  </div>
+                  <div>
+                    <div class="filebox mr10" style="margin-top:56px;">
+                      <input class="input_l length_6 mr10" type="text" name="userdefinedFile2" id="userdefinedFile2" value="No documents selected" />
+                      <button class="btn_upload_l btn_gray_2 ">View</button>
+                      <input class="fileselect_l" type="file" name="file2" id="file2" />
+                    </div>
+                    <script>
+						document.getElementById("file2").onchange = function() {
+    					document.getElementById("userdefinedFile2").value = document.getElementById("file2").value;
+						}
+			  		</script>
+                    <input class="btn_upload_l btn_gray_2" type="submit" value="Upload" />
+                  </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="subitem">
+              <div class="subitemtitle">Tax forms</div>
+              <div class="subitemcont">
+                <div class="row">
+                  <div>
+                    <label class="labelsize2 vertical_t">W8:<br>
+                      <i>(non-US citizen)</i></label>
+                    <div class="filebox mr10">
+                      <input class="input_l length_6 mr10" type="text" name="userdefinedFile3" id="userdefinedFile3" value="No documents selected" />
+                      <button class="btn_upload_l btn_gray_2">View</button>
+                      <input class="fileselect_l" type="file" name="file3" id="file3" />
+                    </div>
+                    <script>
+			  			document.getElementById("file3").onchange = function() {
+    					document.getElementById("userdefinedFile3").value = document.getElementById("file3").value;
+						}
+					</script>
+                    <input class="btn_upload_l btn_gray_2" type="submit" value="Upload" />
+                  </div>
+                  <div class="downloadlink"><a href="#">W8.pdf</a><a href="#">Online browsing</a><a href="#">Download</a> </div>
+                </div>
+                <div class="row">
+                  <div>
+                    <label class="labelsize2 vertical_t">W8:<br>
+                      <i>(US citizen)</i></label>
+                    <div class="filebox mr10">
+                      <input class="input_l length_6 mr10" type="text" name="userdefinedFile4" id="userdefinedFile4" value="No documents selected" />
+                      <button class="btn_upload_l btn_gray_2">View</button>
+                      <input class="fileselect_l" type="file" name="file4" id="file4" />
+                    </div>
+                    <script>
+			  			document.getElementById("file4").onchange = function() {
+    					document.getElementById("userdefinedFile4").value = document.getElementById("file4").value;
+						}
+			  		</script>
+                    <input class="btn_upload_l btn_gray_2" type="submit" value="Upload" />
+                  </div>
+                  <div class="downloadlink"><a href="#">W8.pdf</a><a href="#">Online browsing</a><a href="#">Download</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="subitem">
+              <div class="subitemtitle">Remark</div>
+              <div class="subitemcont">
+                <div class="row">
+                  <label class="label_l length_2 txtright vertical_t">Remark:</label>
+                  <textarea class="length_9" type="text" placeholder="Remark,only 200 words"  rows="5"></textarea>
+                </div>
+                <div class="row">
+                  <ul class="box_fj">
+                    <li><a class="link" href="#" target="_top">Remark.doc</a><a class="link ml20" href="#">Delete</a></li>
+                    <li><a class="link" href="#" target="_top">Remark1.doc</a><a class="link ml20" href="#">Delete</a></li>
+                    <li><a class="link" href="#" target="_top">Remark2.doc</a><a class="link ml20" href="#">Delete</a></li>
+                  </ul>
+                  <div>
+                    <label class="label_l length_2 txtright">attachment:</label>
+                    <div class="filebox mr10">
+                      <input class="input_l length_6 mr10" type="text" name="userdefinedFile5" id="userdefinedFile5" value="No documents selected" />
+                      <button class="btn_upload_l btn_gray_2">View</button>
+                      <input class="fileselect_l" type="file" name="file5" id="file5" />
+                    </div>
+                    <script>
+			  			document.getElementById("file5").onchange = function() {
+    					document.getElementById("userdefinedFile5").value = document.getElementById("file5").value;
+						}
+			  		</script>
+                    <input class="btn_upload_l btn_gray_2" type="submit" value="Upload" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row txtcenter">
+              <button class="btn_l btn_purple">Submit</button>
+            </div>
+          </div>
+        </div></td>
+    </tr>
+  </table>
+</div>
+<div class="bottom clear">
+  <div class="bottom_cont">
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>China<br>
+        <b>Phone: 86 (10) 52901512</b></p>
+      <p>USA<br>
+        <b>Phone: 1 240 641 5777</b></p>
+      <p><a class="white txtuline" href="contactUs.html">More</a></p>
+    </div>
+    <div class="partner">
+      <h3><a class="gray bottomlink" href="partner.html">Partners</a></h3>
+      <div class="bottompartner"> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/><img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/><img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/><img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/> <img src="../images/partner_img.jpg" width="100" height="auto"  alt=""/></div>
+    </div>
+  </div>
+  <div class="pic_or"><img src="../images/pic_OR.jpg" width="140" height="140"  alt=""/></div>
+  <div class="copyright"><a href="#"><img src="../images/wechat.png" width="33" height="33"  alt=""/><span class="relative"><span class="absolute copyrightwechat"><img src="../images/pic_OR.jpg" width="140" height="140"  alt=""/></span></span></a><a href="#"><img src="../images/weibo.png" width="33" height="33"  alt=""/></a><br>
+    Copyright © 2016-2017 HH-Fund. All Rights Reserved.</div>
+</div>
+<div class="fixedbar">
+  <div class="fixedicon fixed_customerservice"><a href="onlineCustomerService.html" target="_blank" title="Customer service"><img src="../images/fixedicon_customerservice.png" width="48" height="48"  alt=""/></a></div>
+  <div class="fixedicon fixed_OR_s"><img src="../images/fixedicon_OR_s.png" width="48" height="48"  alt=""/><span class="relative"><span class="absolute fixed_OR_b"><img src="../images/pic_OR.jpg" width="140" height="140"  alt=""/></span></span></div>
+  <div class="fixedicon fixed_backtop" id="backtop" style="display:none;"><a href="#top" target="_self"><img src="../images/fixedicon_backtop.png" width="48" height="48"  alt=""/><i>Top</i></a></div>
+</div>
+
+</body>
+</html>
