@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*全局CSS*/
+html[lang=en] body {
+	font-family:arial,tahoma,'helvetica neue','hiragino sans gb',sans-serif;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: #fff;
+	color: #474747;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+ul, li, p, h1, h2, h3, h4, label {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+button {
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+input, select, textarea {
+	border: 1px solid #9f9f9f;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Microsoft YaHei', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+input[type="submit"], input[type="button"], input[type="file"], button {
+	cursor: pointer;
+}
+input[type="radio"], input[type="checkbox"] {
+	border: none;
+}
+input[disabled], select[disabled], textarea[disabled] {
+	cursor: default;
+	background-color: transparent;
+	color: #474747;
+	border-color: transparent;
+}
+input[type="submit"][disabled] {
+	color: transparent;
+}
+button[disabled] {
+	cursor: default;
+	color: transparent;
+	background: transparent;
+	border: none;
+}
+.clear {
+	clear: both;
+}
+.txtleft {
+	text-align: left;
+}
+.txtcenter {
+	text-align: center;
+}
+.txtright {
+	text-align: right;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.fontred {
+	color: #ff0000;
+}
+.fontgreen {
+	color: green;
+}
+.fontpurple {
+	color: #735c8c;
+}
+.fontdarkmagenta {
+	color: #a15f8e;
+}
+.fontteal {
+	color: #527f86;
+}
+.fontorange {
+	color: #ec7a2d;
+}
+.fontdarkgold {
+	color: #7b6735;
+}
+.txtuline {
+	text-decoration: underline;
+}
+.fontsize14 {
+	font-size: 14px;
+}
+.fontsize16 {
+	font-size: 16px;
+}
+.fontsize18 {
+	font-size: 18px;
+}
+.fontsize20 {
+	font-size: 20px;
+}
+.fontsize24 {
+	font-size: 24px;
+}
+.fontsize32 {
+	font-size: 32px;
+}
+.fontsize48 {
+	font-size: 48px;
+}
+.pullleft {
+	float: left;
+}
+.pullright {
+	float: right;
+}
+a.link {
+	color: #7381b1;
+}
+a.white {
+	color: white;
+}
+a.gray {
+	color: #a09f9f;
+}
+a.darkgray {
+	color: #888888;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.ml20 {
+	margin-left: 20px;
+}
+.mr10 {
+	margin-right: 10px;
+}
+.mr20 {
+	margin-right: 20px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.lineheight_n {
+	line-height: 1.6;
+}
+.vertical_t {
+	vertical-align: top;
+}
+.vertical_m {
+	vertical-align: middle;
+}
+.vertical_b {
+	vertical-align: bottom;
+}
+::-webkit-input-placeholder {
+color:#ccc;
+}    /* 使用webkit内核的浏览器 */
+:-moz-placeholder {
+color:#ccc;
+}                  /* Firefox版本4-18 */
+::-moz-placeholder {
+color:#ccc;
+}                  /* Firefox版本19+ */
+:-ms-input-placeholder {
+color:#ccc;
+}           /* IE浏览器 */
