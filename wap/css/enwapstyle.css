@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*按钮*/
+.topnav ul li a {
+	padding: 0.11rem 0;
+}
+.topnav ul li:first-child a{
+	padding: 0.2rem 0;
+	}
+.btn_sendcode {
+	height: 0.46rem;
+	margin-left: 0.1rem;
+	font-size: 0.22rem;
+	padding: 0 0.2rem;
+}
+.phone {
+	display: inline-block;
+	width: 4.1rem;
+	height: 0.4rem;
+	border: 1px solid #aeaeae;
+	overflow: hidden;
+	line-height: 0.4rem;
+	vertical-align: middle;
+	margin-top: 0.1rem;
+}
+.btn_submit {
+	background: transparent;
+	background-color: #7a6835;
+	height: 0.32rem;
+	margin: 0.03rem 0.03rem 0 0;
+	padding: 0;
+	border: none;
+	color: #fff;
+	font-size: 0.22rem;
+	width: 1.04rem;
+	float: right;
+	cursor: pointer;
+}
+.btn_submit:hover {
+	background-color: #735d8b;
+}
+/*新闻速递*/
+.news_list li .news_title {
+	font-size: 0.22rem;
+	color: #424242;
+	margin: 0 auto 0 auto;
+	width: 4.14rem;
+}
+.news_list .news_title a {
+	color: #474747;
+}
+.news_list .news_title a:hover {
+	color: #a15f8e;
+}
+/*faq*/
+.faq_title span {
+	padding: 0 0 0 0.82rem;
+	display: inline-block;
+	background: url(../../images/icon_faq.jpg) no-repeat left top;
+	background-size: auto 100%;
+}
+/*关于HH*/
+i.subheading_l {
+    font-size: 0.28rem;
+    letter-spacing: 0rem;
+    margin-left: 0.05rem;
+}
+/*联系我们*/
+.page_logo .page_logo_img {
+	width: 3.84rem;
+	height: 1.1rem;
+}
+.page_logo .page_logo_img img {
+	width: 3.84rem;
+	height: 1.1rem;
+}
+/*登录*/
+.login_wechat {
+	width: 100%;
+	border-top: 1px solid #dadada;
+	padding: 0.36rem 0 0 0;
+}
+.login_wechat .wechat_img1 {
+	height: auto;
+	font-size: 0.24rem;
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+.login_wechat .wechat_img1 img {
+	width: 0.64rem;
+	height: auto;
+}
+.login_wechat .wechat_img2 {
+	margin: auto;
+	width: 2.8rem;
+	height: auto;
+	text-align: center;
+}
+.login_wechat .wechat_img2 img {
+	width: 2.1rem;
+	height: 2.06rem;
+}
+/*我的账户*/
+.zone_tabwrap.tab_multiline a {
+	height: auto;
+	padding: 0.1rem;
+	line-height: 1.2;
+}
+.fileviewlink a.link {
+	display: inline-block;
+	text-align: center;
+	width: 2rem;
+	padding: 0.2rem;
+}
+/*调查问卷*/
+.aboutusnav li a {
+	display: block;
+	height: 0.54rem;
+	text-align: center;
+	line-height: 0.54rem;
+	color: #fff;
+	background-color: #95845b;
+	font-size: 0.24rem;
+	margin: 0 0.1rem 0 0;
+}
+.aboutusnav li:last-child a {
+	margin: 0;
+}
+.box_fj{ margin-left:1.2rem;}

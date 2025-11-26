@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="full-screen" content="yes" />
+<meta name="x5-fullscreen" content="true" />
+<title>我的项目</title>
+<script type="text/javascript" src="js/response.js"></script>
+<script type="text/javascript" src="js/jQuery.v1.6.4.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/wap.js"></script>
+<link href="css/media.css" rel="stylesheet" type="text/css">
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/wapstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body class="zonebody">
+<div class="top topbg_purple" id="topbar"><a class="head_btn btn_menu"  href="zone_index.html"><img src="images/icon_back.png" width="100%" height="100%"  alt=""/></a><span class="pagetitle">我的项目</span><!--<a class="head_btn btn_user" href="login.html"><img src="images/icon_user.png" width="100%" height="100%"  alt=""/></a>--> </div>
+<div class="projecttopbar flexbox vertical ver_c hor_c">
+  <div class="userportrait"><img class="borderpurple radius63 borderbox" src="images/wap_user_photo.png"  alt=""/></div>
+  <div class="fontpurple"><span class="fontsize24">Johnny</span> <span class="fontsize18">, 欢迎您！</span></div>
+  <div class="fontsize18">您最近一次登录时间是： 2017-07-28 14:21:05 </div>
+</div>
+<div class="zone_tabwrap flexbox horizontal"><a id="tab1" class="flex_1 ontab"  href="javascript:tab('tab1');">我的资料</a><a id="tab2" class="flex_1"  href="javascript:tab('tab2');">项目资料</a><a id="tab3" class="flex_1"  href="javascript:tab('tab3');">我投资的项目</a><a id="tab4" class="flex_1"  href="javascript:tab('tab4');">项目红利</a></div>
+<!--我的资料-->
+<div id="tabcont1" class="userprofile">
+  <div class="subitemtitle">基本信息<a class="fontsize16 link pullright absolute" style="right:0;" href="newpage_article.html" target="_blank">资料登记说明&gt;&gt;</a></div>
+  <div class="baseinfo">
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">真实姓名：</label>
+      <input type="text" class="input_xl flex_1" placeholder="请输入真实姓名">
+    </div>
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">职业：</label>
+      <input type="text" class="input_xl flex_1" placeholder="请输入职业">
+    </div>
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">电话：</label>
+      <input type="tel" class="input_xl flex_1" placeholder="请输入电话">
+    </div>
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">国籍：</label>
+      <select class="input_xl flex_1">
+        <option>中国</option>
+        <option>美国</option>
+      </select>
+    </div>
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">居住国家：</label>
+      <select class="input_xl flex_1">
+        <option>中国</option>
+        <option>美国</option>
+      </select>
+    </div>
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">税号：</label>
+      <input type="tel" class="input_xl flex_1" placeholder="请输入税号">
+    </div>
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">邮箱：</label>
+      <input type="email" class="input_xl flex_1" placeholder="请输入邮箱">
+    </div>
+    <div class="inputrow flexbox horizontal ver_s">
+      <label class="label_xl">详细地址：</label>
+      <textarea class="input_xl flex_1" rows="3" type="text"  placeholder="请输入详细地址" style="height:auto;" >
+      </textarea>
+    </div>
+    <!--<div class="inputrow flexbox horizontal ver_c">
+      <button class="btn_purple btn_c flex_2 mr20">保存</button>
+      <button class="btn_gray btn_c flex_1">取消</button>
+    </div>-->
+  </div>
+  <div class="subitemtitle">身份信息</div>
+  <ul class="flexbox horizontal uploadlist">
+    <li class="flexbox vertical ver_c fontsize0 flex_1"><a href="#" target="_blank" class="imgbox"><img src="../images/xmxq_img15.jpg" width="100%" height="100%" title="点击可查看"  alt=""/></a>
+      <label>证件的照片</label>
+      <div class="relative fullwidth">
+        <button class="btn_upload btn_gray_2">上传</button>
+        <input type="file" class="fileselect" placeholder="请选择文件">
+      </div>
+      <div class="fontred fontsize16">注：证件照片上传后，自动作为会员头像。</div>
+    </li>
+    <li class="flexbox vertical ver_c fontsize0 flex_1"><a href="#" target="_blank" class="imgbox"><img src="../images/xmxq_img15.jpg" width="100%" height="100%" title="点击可查看"  alt=""/></a>
+      <label>护照、驾照或者绿卡照片</label>
+      <div class="relative fullwidth">
+        <button class="btn_upload btn_gray_2">上传</button>
+        <input type="file" class="fileselect" placeholder="请选择文件">
+      </div>
+    </li>
+  </ul>
+  <div class="subitemtitle">税务表</div>
+  <ul class="flexbox horizontal uploadlist">
+    <li class="flexbox vertical ver_c fontsize0 flex_1"><a href="#" target="_blank" class="imgbox"><img src="../images/xmxq_img15.jpg" width="100%" height="100%" title="点击可查看"  alt=""/></a>
+      <label>W8表（非美国税务居民）</label>
+      <div class="relative fullwidth">
+        <button class="btn_upload btn_gray_2">上传</button>
+        <input type="file" class="fileselect" placeholder="请选择文件">
+      </div>
+      <div class="downloadlink"><a href="#">W8.pdf</a><a href="#">在线浏览</a><a href="#">下载</a> </div>
+    </li>
+    <li class="flexbox vertical ver_c fontsize0 flex_1"><a href="#" target="_blank" class="imgbox"><img src="../images/xmxq_img15.jpg" width="100%" height="100%" title="点击可查看"  alt=""/></a>
+      <label>W9表（美国税务居民）</label>
+      <div class="relative fullwidth">
+        <button class="btn_upload btn_gray_2">上传</button>
+        <input type="file" class="fileselect" placeholder="请选择文件">
+      </div>
+      <div class="downloadlink"><a href="#">W8.pdf</a><a href="#">在线浏览</a><a href="#">下载</a> </div>
+    </li>
+  </ul>
+  <div class="subitemtitle">备注</div>
+  <div class="baseinfo">
+    <div class="inputrow flexbox horizontal ver_s">
+      <label class="label_xl">备注：</label>
+      <textarea class="input_xl flex_1" rows="3" type="text" placeholder="请输入备注，限200字" style="height:auto;" >
+      </textarea>
+    </div>
+    
+    <div class="inputrow flexbox horizontal ver_c">
+      <label class="label_xl">附件：</label>
+      <input class="input_xl flex_1" type="file" placeholder="请选择文件">
+    </div>
+    <ul class="box_fj">
+      <li><a class="link" href="#" target="_top">备注名称.doc</a><a class="link ml20" href="#">删除</a></li>
+      <li><a class="link" href="#" target="_top">备注名称1.doc</a><a class="link ml20" href="#">删除</a></li>
+      <li><a class="link" href="#" target="_top">备注名称2.doc</a><a class="link ml20" href="#">删除</a></li>
+    </ul>
+  </div>
+  <div class="inputrow flexbox horizontal ver_c btnbar">
+      <button class="btn_purple btn_c flex_1">提交审核</button>
+    </div>
+</div>
+<!--项目资料-->
+<div id="tabcont2" style="display:none;">
+  <div class="fontsize0 txtright pt20 pb20 mr20"><a href="zone_userProjectDetail.html" class="btn_s btn_purple mt20 mb20">提交项目资料</a></div>
+  <ul class="multilinelist">
+    <li>
+      <div><span>项目：</span><span>Varsity</span></div>
+      <div><span>投资金额：</span><span>$1,200,000</span></div>
+      <div><span>支付凭证：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>OA签名：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>经营协议：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>订购协议：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>提交时间：</span><span>2017-07-28</span></div>
+    </li>
+    <li>
+      <div><span>项目：</span><span>Varsity</span></div>
+      <div><span>投资金额：</span><span>$1,200,000</span></div>
+      <div><span>支付凭证：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>OA签名：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>经营协议：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>订购协议：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+      <div><span>提交时间：</span><span>2017-07-28</span></div>
+    </li>
+  </ul>
+</div>
+<!--我投资的项目-->
+<div id="tabcont3" style="display:none;">
+  <div class="fontsize0 txtright pt20 pb20 mr20"><a href="zone_userProjectDetail.html" class="btn_s btn_purple mt20 mb20">提交项目资料</a></div>
+  <ul class="multilinelist">
+    <li>
+      <div><span>项目：</span>Varsity</div>
+      <div><span>投资金额：</span>$1,200,000</div>
+      <div><span>所占股份：</span>7%</div>
+      <div><span>投资时间：</span>2017-07-28</div>
+      <div><span>项目投资资料：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+    </li>
+    <li>
+      <div><span>项目：</span>Varsity</div>
+      <div><span>投资金额：</span>$1,200,000</div>
+      <div><span>所占股份：</span>7%</div>
+      <div><span>投资时间：</span>2017-07-28</div>
+      <div><span>项目投资资料：</span><a class="link" href="zone_userProjectDetailView.html">查看</a><a class="link" href="zone_userProjectDetail.html">修改</a></div>
+    </li>
+  </ul>
+</div>
+<!--项目红利-->
+<div id="tabcont4" style="display:none;">
+  <ul class="multilinelist">
+    <li>
+      <div><span>项目：</span>Varsity</div>
+      <div><span>投资金额：</span>$1,200,000</div>
+      <div><span>所占股份：</span></div>
+      <div><span>投资时间：</span></div>
+      <div><span>红利给付期数：</span></div>
+      <div><span>红利总收入：</span></div>
+      <div><span>本期红利：</span></div>
+      <div><span>本期费用支出：</span></div>
+      <div><span>分红给付日期：</span>2017-07-28</div>
+    </li>
+    <li>
+      <div><span>项目：</span>Varsity</div>
+      <div><span>投资金额：</span>$1,200,000</div>
+      <div><span>所占股份：</span></div>
+      <div><span>投资时间：</span></div>
+      <div><span>红利给付期数：</span></div>
+      <div><span>红利总收入：</span></div>
+      <div><span>本期红利：</span></div>
+      <div><span>本期费用支出：</span></div>
+      <div><span>分红给付日期：</span>2017-07-28</div>
+    </li>
+  </ul>
+</div>
+<div class="bottom borderbox">
+  <div class="bottom_cont">
+    <div class="language"> <a href="#">中文</a><i>|</i><a href="English/zone_UserProject.html">English</a> </div>
+    <div class="contact">
+      <div class="pullleft"><img src="images/bottomlogo_wap.png" width="100%" height="auto"  alt=""/></div>
+      <div class="pullleft">
+        <h3>联系我们</h3>
+        <p>北京<br>
+          <i>电话: 86 (10) 52901512</i></p>
+        <p>美国<br>
+          <i>电话: 1 (240) 641-5777</i></p>
+        <p><a href="contactUs.html">更多联系方式</a></p>
+      </div>
+    </div>
+    <div class="partner clear">
+      <h3><a class="gray bottomlink" href="partner.html">合作伙伴</a></h3>
+      <p><a href="#">www.cornell.edu</a></p>
+      <p><a href="#">www.cornell.edu</a></p>
+      <p><a href="#">www.cornell.edu</a></p>
+    </div>
+  </div>
+  <div class="pic_or"><img src="../images/pic_OR.jpg"  alt=""/></div>
+  <div class="copyright borderbox"><a href="#"><img src="../images/wechat.png" alt=""/><span class="relative"><span class="absolute copyrightwechat"><img src="../images/pic_OR.jpg" alt=""/></span></span></a><a href="#"><img src="../images/weibo.png"  alt=""/></a><br>
+    Copyrights © 2016-2017 All Rights Reserved 版权所有仁和鸿金HH-Fund</div>
+</div>
+</body>
+</html>
